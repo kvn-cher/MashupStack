@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1> Question 1 </h1>
+<form method="post">
+	<fieldset>
+	<label for="name"> Name:</label><br>
+	<input type="text" id="name" name="name" placeholder="John Doe" maxlength="25" required><br><br>
+	<label for="email"> Email:</label><br>
+	<input type="text" id="email" name="email" value="test@example.com" autofocus required><br><br>
+
+	<label for="password"> Password:</label><br>
+	<input type="password" id="password" name="password" minlength="6" required>
+	</fieldset>
+	<br><br>
+
+  	<label for="category"> Category: </label>
+  	<select id="category" required>
+  		<option value="student">Student</option>
+  		<option value="employee">Employee</option>
+  		<option value="freelancer" selected>Freelancer</option>
+	</select>
+  	<br><br>
+
+  	<label for="event-date">Event date:</label><br>
+  	<input type="date" id="event-date" name="event-date" required>
+  	<br><br>
+
+  	<input type="radio" id="1ticket" name="tickets" value="1ticket" required>
+	<label for="1ticket">1 ticket</label><br>
+	<input type="radio" id="2tickets" name="tickets" value="2tickets" checked required>
+	<label for="2tickets">2 tickets</label><br>
+	<input type="radio" id="3tickets" name="tickets" value="3tickets" required>
+	<label for="3tickets">3 tickets</label>
+	<br><br>
+
+	<input type="checkbox" id="payment" name="payment" required>
+	<label for="payment">Online payment</label>
+	<br><br>
+
+	<label for="notes">Notes:</label><br>
+	<textarea id="notes" name="notes" rows="5" cols="20" placeholder="notes"></textarea>
+	<br><br>
+
+	<input type="submit" value="Submit">
+	<input type="reset">
+</form>
+</body>
+</html>
+
